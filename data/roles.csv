@@ -1,0 +1,67 @@
+role,skills
+Data Visualization Specialist,tableau powerbi dashboards data-storytelling analytics
+BI Developer,powerbi tableau sql data-warehouse reporting
+Data Architect,data-modeling sql database-design etl architecture
+Machine Learning Researcher,python deep-learning research algorithms ai
+MLOps Engineer,mlops docker kubernetes ci-cd machine-learning deployment
+AI Research Scientist,ai machine-learning deep-learning python research
+Prompt Engineer,ai prompts llm nlp openai
+Generative AI Engineer,python llm generative-ai transformers openai
+Chatbot Developer,python nlp chatbot dialogflow rasa
+Recommendation Systems Engineer,python machine-learning recommender-systems collaborative-filtering
+Search Engineer,elasticsearch search-algorithms ranking systems
+API Developer,rest-api python nodejs microservices
+Microservices Developer,java springboot docker kubernetes microservices
+Platform Engineer,cloud infrastructure kubernetes devops
+Infrastructure Engineer,cloud linux networking automation
+Release Engineer,ci-cd pipelines automation git
+Build Engineer,build-tools maven gradle ci-cd
+Game AI Developer,ai game-development pathfinding algorithms
+3D Artist,blender maya 3d-modeling animation
+Game Designer,game-mechanics storytelling level-design
+Security Engineer,network-security cryptography threat-analysis
+Security Operations Analyst,soc monitoring incident-response cybersecurity
+Penetration Tester,ethical-hacking kali-linux penetration-testing
+Malware Analyst,reverse-engineering malware-analysis cybersecurity
+Cryptography Engineer,cryptography encryption security algorithms
+Cloud Security Engineer,cloud-security aws security networking
+IT Support Specialist,technical-support troubleshooting networking
+Help Desk Technician,customer-support troubleshooting hardware software
+Technical Support Engineer,troubleshooting networking system-support
+Solutions Architect,system-design cloud architecture microservices
+Enterprise Architect,it-strategy system-architecture enterprise-systems
+ERP Consultant,sap oracle erp business-process
+SAP Consultant,sap erp sap-modules business-process
+CRM Developer,salesforce crm development customization
+Salesforce Developer,salesforce apex crm cloud
+Marketing Analyst,marketing analytics data-analysis google-analytics
+Social Media Manager,social-media marketing branding content
+Growth Hacker,digital-marketing growth-strategy analytics
+E-commerce Specialist,ecommerce shopify amazon marketing
+Product Designer,ui ux prototyping figma design-thinking
+Interaction Designer,ux interaction-design usability
+Motion Graphics Designer,after-effects animation motion-design
+Video Editor,premiere-pro video-editing storytelling
+Animation Artist,animation 2d 3d motion
+Instructional Designer,e-learning course-design education
+Research Analyst,research data-analysis reporting
+Operations Manager,operations management leadership planning
+HR Analyst,hr analytics recruitment data
+Talent Acquisition Specialist,recruitment hr interviewing
+Training Specialist,training development education
+Business Intelligence Analyst,bi analytics reporting dashboards
+Risk Analyst,risk-analysis finance data-analysis
+Financial Analyst,finance analysis excel forecasting
+Supply Chain Analyst,supply-chain logistics analytics
+Logistics Coordinator,logistics supply-chain operations
+Procurement Specialist,procurement vendor-management negotiation
+Full Stack Developer,"Programming Languages: JavaScript, TypeScript, Python, C++, SQL; Frontend Technologies: React.js, Next.js, HTML5, CSS3, Tailwind CSS, Material-UI, Responsive Design; Backend & Databases: Node.js, Express.js, RESTful APIs, MongoDB, MySQL, SQLite; DevOps & Tools: Git, GitHub, Docker, AWS, Jenkins, Vercel, Postman, VS Code, Jira; Methodologies: Agile, CI/CD, Debugging"
+Data Scientist,"Programming Languages: Python, R, SQL; AI/ML & Data Science: TensorFlow, Scikit-Learn, NumPy, Pandas, Data Preprocessing, Model Training, Deep Learning, NLP; Data Visualization: Matplotlib, Seaborn, Power BI, Tableau; Tools: Jupyter Notebook, Git; Methodologies: Statistical Analysis, Machine Learning"
+Machine Learning Engineer,"Programming Languages: Python, Java; AI/ML & Data Science: TensorFlow, PyTorch, CNN, NLP, Model Deployment, MLOps; Backend: FastAPI, Flask; DevOps & Tools: Docker, Kubernetes, AWS, CI/CD; Data: Feature Engineering, Data Pipelines"
+Frontend Developer,"Programming Languages: JavaScript, TypeScript; Frontend Technologies: React.js, Next.js, HTML5, CSS3, Tailwind CSS, Bootstrap, Material-UI, Responsive Design; Tools: Git, GitHub, VS Code; Methodologies: UI/UX, Debugging"
+Backend Developer,"Programming Languages: Python, Java, JavaScript; Backend & Databases: Node.js, Express.js, Django, Flask, Spring Boot, REST APIs, GraphQL, MongoDB, MySQL; DevOps & Tools: Docker, AWS, Git; Methodologies: API Development, System Design"
+DevOps Engineer,"DevOps & Tools: Docker, Kubernetes, Jenkins, GitHub Actions, Terraform, Ansible; Cloud Computing: AWS, Azure, GCP; Monitoring: Prometheus, Grafana; Methodologies: CI/CD, Infrastructure as Code"
+Data Analyst,"Programming Languages: Python, SQL; Data Analysis: Pandas, NumPy, Excel; Visualization: Power BI, Tableau, Matplotlib; Tools: Jupyter, Git; Methodologies: Data Cleaning, Reporting"
+AI Engineer,"Programming Languages: Python; AI/ML & Data Science: TensorFlow, PyTorch, OpenCV, NLP, Deep Learning, CNN, Transformers; Tools: Git, Docker; Deployment: APIs, Cloud"
+Cloud Engineer,"Cloud Computing: AWS, Azure, GCP; DevOps & Tools: Docker, Kubernetes, Terraform; Networking: Load Balancing, Security, Serverless; Methodologies: Cloud Architecture"
+Cybersecurity Analyst,"Cybersecurity: Network Security, Cryptography, Ethical Hacking, Penetration Testing, SIEM, Risk Analysis; Tools: Wireshark, Metasploit; Methodologies: Security Audits"
