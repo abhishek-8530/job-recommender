@@ -16,10 +16,16 @@ if not os.path.exists(roles_path) or os.path.getsize(roles_path) == 0:
 
 roles_df = pd.read_csv(roles_path)
 
+# ✅ FIX: handle empty values
+roles_df = roles_df.fillna("")
+
 # =========================
-# CLEAN TEXT
+# CLEAN TEXT (FIXED)
 # =========================
 def clean_text(text):
+    if not isinstance(text, str):   # ✅ FIX
+        return ""
+
     text = text.lower()
     text = re.sub(r'[^a-z0-9\s]', ' ', text)
     text = re.sub(r'\s+', ' ', text).strip()
@@ -44,18 +50,24 @@ def extract_text_from_pdf(pdf_file):
 # =========================
 def extract_skills(resume_text):
     resume_clean = clean_text(resume_text)
+
+    if resume_clean == "":   # ✅ FIX
+        return []
+
     found_skills = set()
 
     for skills in roles_df['skills']:
-        # FIX: split by space instead of ;
-        skill_list = clean_text(skills).split()
+        cleaned = clean_text(skills)
+
+        if cleaned == "":   # ✅ FIX
+            continue
+
+        skill_list = cleaned.split()
 
         for skill in skill_list:
-            # exact match
             if skill in resume_clean:
                 found_skills.add(skill)
             else:
-                # fuzzy match
                 if fuzz.partial_ratio(skill, resume_clean) > 85:
                     found_skills.add(skill)
 
@@ -67,13 +79,23 @@ def extract_skills(resume_text):
 # =========================
 def recommend_jobs(resume_text):
     resume_clean = clean_text(resume_text)
+
+    if resume_clean == "":   # ✅ FIX
+        return [], []
+
     extracted = extract_skills(resume_text)
 
     recommendations = []
 
     for _, row in roles_df.iterrows():
         role = row["role"]
-        role_skills = clean_text(row["skills"]).split()
+
+        cleaned = clean_text(row["skills"])
+
+        if cleaned == "":   # ✅ FIX
+            continue
+
+        role_skills = cleaned.split()
 
         match_count = 0
 
@@ -120,4 +142,4 @@ if uploaded_file is not None:
     st.write(", ".join(skills) if skills else "No skills found.")
 
     st.subheader("📊 Job Recommendations:")
-    st.dataframe(recs[:100])  # show top 100
+    st.dataframe(recs[:100])
