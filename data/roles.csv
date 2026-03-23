@@ -1,4 +1,5 @@
 role,skills
+<<<<<<< HEAD
 Data Engineer,python sql etl pipelines spark data-warehouse
 Big Data Engineer,hadoop spark kafka distributed-systems data-processing
 Analytics Engineer,sql dbt data-modeling analytics engineering
@@ -44,6 +45,8 @@ Compliance Analyst,compliance regulations risk auditing
 Healthcare Data Analyst,healthcare data-analysis reporting
 Bioinformatics Analyst,bioinformatics genomics data-analysis
 Education Technologist,edtech learning platforms digital-tools
+=======
+>>>>>>> 47ccf5784f9230ad9b96a78b21b1fd81001553b3
 Data Visualization Specialist,tableau powerbi dashboards data-storytelling analytics
 BI Developer,powerbi tableau sql data-warehouse reporting
 Data Architect,data-modeling sql database-design etl architecture
