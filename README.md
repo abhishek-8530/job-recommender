@@ -66,4 +66,7 @@ This project is open-source and available under the MIT License.
 Your Name
 GitHub: https://github.com/abhishek-8530
 
+Deployed URL
+https://job-recommender-2hek5xw7ttsudi6aaicyjk.streamlit.app/
+
 
